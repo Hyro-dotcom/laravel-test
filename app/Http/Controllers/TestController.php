@@ -8,6 +8,13 @@ class TestController extends Controller
     {
         return view('test', [
             'name' => 'Laravel Beginner',
+            'topic' => 'controllers and Blade',
+            'isLearning' => false,
+            'skills' => [
+                'Routes',
+                'Controllers',
+                'Blades',
+            ],
         ]);
     }
 }
